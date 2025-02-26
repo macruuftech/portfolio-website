@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  padding: 0 5%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header i {
+  display: none;
+}
+.header .logo {
+  color: #1d4ed8;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+}
+.header nav ul li a {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.header nav ul li a:hover {
+  color: #eab308;
+}
+.header nav ul .contact-btn {
+  margin: 0 15px;
+}
+.contact-btn button {
+  padding: 5px 10px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-btn button:hover {
+  background-color: #eab308;
+}
+.header nav ul i {
+  display: block;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.banner {
+  width: 100%;
+  height: 87vh;
+  background-color: #e4e4f5;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+.banner .left {
+  width: 50%;
+}
+.banner .left h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.banner .left h1 span {
+  color: #eab308;
+}
+.banner .left p {
+  width: 75%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.left .btn {
+  margin-top: 15px;
+}
+.left .btn #portfolio-btn {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: #fff;
+}
+.left .btn #contact-btn {
+  margin-left: 6px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #000;
+}
+.banner .r-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
