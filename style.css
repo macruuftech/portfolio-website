@@ -265,3 +265,94 @@ a {
   background-color: #fff;
   color: #000;
 }
+.contact-section {
+  width: 100%;
+  padding: 3% 5%;
+  margin: 0 auto;
+  display: flex;
+}
+.contact-section .left {
+  width: 40%;
+}
+.contact-section .left h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contact-section .left .boxs {
+  margin-top: 30px;
+}
+.contact-section .left .boxs .box {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.boxs .box i {
+  font-size: 1.5rem;
+  color: #1d4ed8;
+}
+.boxs .box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.boxs .box p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.contact-section .right {
+  width: 60%;
+  margin-top: 65px;
+  margin-left: 40px;
+}
+.right h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.right form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.right form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 1rem;
+}
+.right form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 1rem;
+}
+.right form button {
+  width: 15%;
+  padding: 10px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  padding: 1% 5%;
+  margin: 0 auto;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
