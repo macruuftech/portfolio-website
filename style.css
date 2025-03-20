@@ -10,6 +10,10 @@ body {
   background-color: #f0f0f0;
   color: #333;
 }
+.dark-mode {
+  background-color: #111121;
+  color: #fff;
+}
 a {
   text-decoration: none;
 }
@@ -30,6 +34,9 @@ a {
   font-size: 1.5rem;
   font-weight: 700;
 }
+.dark-mode .header .logo {
+  color: #fff;
+}
 .header nav {
   display: flex;
   align-items: center;
@@ -37,12 +44,16 @@ a {
 .header nav ul {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 .header nav ul li a {
   color: #000;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0 10px;
+}
+.dark-mode .header nav ul li a {
+  color: #fff;
 }
 .header nav ul li a:hover {
   color: #eab308;
@@ -76,6 +87,10 @@ a {
   align-items: center;
   padding: 0 5%;
   margin: 0 auto;
+}
+.dark-mode .banner {
+  background-color: #181827;
+  color: #fff;
 }
 .banner .left {
   width: 50%;
@@ -128,6 +143,10 @@ a {
   margin: 0 auto;
   display: flex;
 }
+.dark-mode .about-section {
+  background-color: #1a1a3c;
+  color: #fff;
+}
 .about-section .left {
   width: 50%;
 }
@@ -152,6 +171,10 @@ a {
   margin: 0 auto;
   background-color: #e4e4f5;
 }
+.dark-mode .services-section {
+  background-color: #111121;
+  color: #fff;
+}
 .services-section h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -167,6 +190,11 @@ a {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dark-mode .services-section .row .service {
+  background-color: #1a1a3c;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(247, 247, 247, 0.1);
 }
 .services-section .row .service i {
   font-size: 2rem;
@@ -186,6 +214,9 @@ a {
   width: 100%;
   padding: 3% 5%;
   margin: 0 auto;
+}
+.dark-mode .portfolio-section {
+  background-color: #19192e;
 }
 .portfolio-section h2 {
   font-size: 2rem;
@@ -209,6 +240,10 @@ a {
   margin: 0 auto;
   background-color: #e4e4f5;
 }
+.dark-mode .price-section {
+  background-color: #111121;
+  color: #fff;
+}
 .price-section h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -219,6 +254,14 @@ a {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dark-mode .price-section .row .prices {
+  background-color: #19192e;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(247, 247, 247, 0.1);
+}
+.dark-mode .price-section .row .prices:nth-child(2) {
+  color: #fff;
 }
 .price-section .row .prices h3 {
   font-size: 1.5rem;
@@ -289,6 +332,11 @@ a {
   border-radius: 5px;
   margin-top: 20px;
 }
+.dark-mode .contact-section .left .boxs .box {
+  background-color: #19192e;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(247, 247, 247, 0.1);
+}
 .boxs .box i {
   font-size: 1.5rem;
   color: #1d4ed8;
@@ -326,6 +374,10 @@ a {
   border: 1px solid #000;
   font-size: 1rem;
 }
+.dark-mode form input {
+  background-color: #19192e;
+  color: #fff;
+}
 .right form textarea {
   width: 100%;
   height: 100px;
@@ -335,6 +387,10 @@ a {
   outline: none;
   border: 1px solid #000;
   font-size: 1rem;
+}
+.dark-mode form textarea {
+  background-color: #19192e;
+  color: #fff;
 }
 .right form button {
   width: 15%;
