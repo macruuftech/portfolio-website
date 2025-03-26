@@ -131,6 +131,10 @@ a {
   background: none;
   border: 1px solid #000;
 }
+.dark-mode .left .btn #contact-btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
 .banner .r-img {
   width: 50%;
   display: flex;

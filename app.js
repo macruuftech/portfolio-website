@@ -1,5 +1,7 @@
 let darkMode = document.querySelector("#darkMode");
 let body = document.body;
+let menu = document.querySelector("#menu");
+let nav = document.querySelector("nav");
 
 const getThemeUse = () => {
   let theme = localStorage.getItem("theme");
@@ -37,5 +39,15 @@ darkMode.addEventListener("click", () => {
   } else {
     setTheme("light");
     localStorage.setItem("theme", "light");
+  }
+});
+
+menu.addEventListener("click", () => {
+  if (menu.classList[1] === "fa-bars") {
+    nav.classList.add("show");
+    menu.classList.replace("fa-bars", "fa-xmark");
+  } else {
+    nav.classList.remove("show");
+    menu.classList.replace("fa-xmark", "fa-bars");
   }
 });
